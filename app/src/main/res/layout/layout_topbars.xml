@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.djj.drawerlayout.view.TopBar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        app:leftBackground="@drawable/right_button_selector"
+        app:rightBackground="@drawable/left_button_selector"
+        app:titleText="我的首页"
+        app:titleTextColor="#FFF"
+        app:titleTextSize="6sp"/>
+
+    <ListView
+        android:id="@+id/progress_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
